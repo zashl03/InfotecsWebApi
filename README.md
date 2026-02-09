@@ -38,8 +38,8 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-    cd <ИМЯ_ПАПКИ_РЕПОЗИТОРИЯ>
+    git clone https://github.com/zashl03/InfotecsWebApi
+    cd InfotecsWebApi
     ```
 2.  **Настройте строку подключения к БД** в `InfotecsWebApi/appsettings.json`.
 3.  **Примените миграции:** Перейдите в `InfotecsWebApi` и выполните `dotnet ef database update`.
@@ -62,11 +62,3 @@ Unit-тесты находятся в проекте `InfotecsWebApi.Tests`.
 cd InfotecsWebApi.Tests
 dotnet test
 ```
-
-## Автор
-
-[Ваше Имя/Псевдоним]
-
-## Лицензия
-
-Этот проект распространяется под лицензией [Укажите лицензию, например, MIT](LICENSE).
